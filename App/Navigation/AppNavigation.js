@@ -2,6 +2,7 @@ import { createStackNavigator, createAppContainer } from "react-navigation";
 import LoginScreen from "../Containers/LoginScreen";
 import HomeScreen from "../Containers/HomeScreen";
 import LaunchScreen from "../Containers/LaunchScreen";
+import SignupScreen from "../Containers/SignupScreen";
 
 import styles from "./Styles/NavigationStyles";
 
@@ -10,7 +11,8 @@ const PrimaryNav = createStackNavigator(
   {
     LoginScreen: { screen: LoginScreen },
     HomeScreen: { screen: HomeScreen },
-    LaunchScreen: { screen: LaunchScreen }
+    LaunchScreen: { screen: LaunchScreen },
+    SignupScreen: { screen: SignupScreen }
   },
   {
     // Default config for all screens
